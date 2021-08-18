@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:rgb(2, 2, 44);
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    background-color:#f3eded;
+}
+
+header {
+    background-color:#213636;
+    padding:20px;
+}
+
+header nav {
+    background-color:cyan;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 42px;
+    display:inline-block;
+}
+
+h1 {
+    background-color: cyan;
+    width: 400px;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+
+nav ul li{
+    list-style-type:none;
+
+}
+
+/*displays list as inline block (next to each other)*/
+
+header nav ul li{
+    color:cyan;
+    display: inline-block; 
+    margin-left: 25px;
+    }
+
+/*blue striped hero background image*/
+
+.hero {
+    background-color: lightskyblue;
+    background-image: url(./Images/240_F_288874532_hEG4jcoYw7vbEivHqneNJk5hyGyHLlPt.jpg);
+    height:200px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+.blurb {
+    background-color: cyan;
+    color: navy;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 50px;
+    font-weight:bold;}
+
+.profile-pic{
+    width: 10%;
+    display: inline-block;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    padding:10px;
+    font-size: xx-large;
+}
+
+h3{
+    font-size:large;
+    text-align:center;
+}
+
+.about{
+    display:flex;
+}
+
+img {
+    border-bottom:black;
+    width: 200px;
+}
+
+img:hover{
+    opacity:75%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:space-between;
+}
+
+.flex-child {
+    font-weight:bold;
+    background-color:cyan;
+    width:20%;
+    padding: 50px;
+    margin: 30px;
+}
+
+#firstitem{
+width:70%;
+padding: 20px;
+}
+
+#runbuddy{
+    width:500px;
+    height: 600px;
+    margin: 50px;
+    align-self:auto;
+}
+
+footer .contact-info ul{
+    list-style-type:none;
+}
+
+footer .contact-info ul li {
+    display: inline-block;
+    text-decoration:underline;
+    color:navy;
+}
+
+ 
+
+ 
+
+/*media query to make screen responsive*/
+
+@media screen and (max-width: 768px){
+
+    header h1 {
+        width: 100%;
+        text-align:center;
+        padding: 5px 10px;
+        margin:30px;
+    }
+
+    body{
+        background-color:lightskyblue;
+        flex-direction:column;
+    }
+
+    .flex-row{
+        flex-direction:column;
+    }
+
+    .about{
+        flex-wrap:wrap;
+    }
+
+    .flex-child{
+        background-color:lightskyblue;
+        margin:5px;
+    }
+    
+ 
+
+    .blurb {
+        width: 80%;
+
+    }
+
+    h2 {
+        text-align:center;
+        width:100%;
+    }
+
+    .profile-pic{
+        width: 50%;
+    }
+}

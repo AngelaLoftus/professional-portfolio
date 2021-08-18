@@ -5,15 +5,15 @@
 }
 
 body {
-    color:rgb(2, 2, 44);
+    color:#140d3f;
     font-family:Arial, Helvetica, sans-serif;
     display:flex;
     flex-direction:column;
-    background-color:#f3eded;
+    background-color:#f3ededc2;
 }
 
 header {
-    background-color:#213636;
+    background-color:#140d3f;
     padding:20px;
 }
 
@@ -42,6 +42,7 @@ h1 {
 
 nav ul li{
     list-style-type:none;
+    color: #140d3f;
 
 }
 
@@ -66,7 +67,7 @@ header nav ul li{
 
 .blurb {
     background-color: cyan;
-    color: navy;
+    color: #140d3f;
     text-align: center;
     margin: 10px;
     padding: 10px 20px;
@@ -86,6 +87,7 @@ h2 {
     text-align: left;
     padding:10px;
     font-size: xx-large;
+    color:#140d3f;
 }
 
 h3{
@@ -141,12 +143,10 @@ footer .contact-info ul{
 footer .contact-info ul li {
     display: inline-block;
     text-decoration:underline;
-    color:navy;
+    color:#140d3f;
+
 }
 
- 
-
- 
 
 /*media query to make screen responsive*/
 
@@ -177,7 +177,7 @@ footer .contact-info ul li {
         margin:5px;
     }
     
- 
+
 
     .blurb {
         width: 80%;

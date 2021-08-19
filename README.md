@@ -1,5 +1,3 @@
-# User Story
-
 ## Angela Loftus' Professional Portfolio
 
    # Purpose: Samples of Angela Loftus' work for review by employers

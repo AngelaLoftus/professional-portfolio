@@ -1,8 +1,8 @@
-## Angela Loftus' Professional Portfolio
+# Angela Loftus' Professional Portfolio
 
-   # Purpose: Samples of Angela Loftus' work for review by employers
+   ## Purpose: Samples of Angela Loftus' work for review by employers
    
-   # Description:   
+   ## Description:   
    Professional portfolio includes the developer's name, a recent photo, links to sections about me, my work, and how to contact me.  
    Presents the viewer with samples of work by Angela Loftus.        
    Contains titled images of the developer's work.    
@@ -11,12 +11,9 @@
    When page is resized on various screens or devices, responsive layout adapts to viewport.     
 
 
-## Link to deployed application:
+# Link to deployed application:
    https://angelaloftus.github.io/professional-portfolio/
    
-##
- 
-SCREENSHOT placeholder
 ![Portfolio](https://github.com/AngelaLoftus/professional-portfolio/blob/main/assets/Images/application-screenshot.jpg)
 
  

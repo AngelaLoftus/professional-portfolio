@@ -17,6 +17,6 @@
 ##
  
 SCREENSHOT placeholder
-![Portfolio]()
+![Portfolio](https://github.com/AngelaLoftus/professional-portfolio/blob/main/assets/Images/application-screenshot.jpg)
 
  

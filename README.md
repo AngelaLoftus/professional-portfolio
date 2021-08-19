@@ -12,8 +12,9 @@
    
    # Images within 'Work' link to deployed applications.  
    
-      # When navigation link is clicked, the UI scrolls to the corresponding section.
-      # When page is resized on various screens or devices, responsive layout adapts to viewport.
+   # When navigation link is clicked, the UI scrolls to the corresponding section.  
+   
+   # When page is resized on various screens or devices, responsive layout adapts to viewport.
 
 
 ## Link to deployed application:

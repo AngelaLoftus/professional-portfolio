@@ -112,7 +112,8 @@ h3{
 
 .left {
     float:left;
-    border-right: 5px black;
+    border-right: 5px solid #140d3f;
+   
     
 }
 
@@ -199,7 +200,9 @@ footer .contact-info ul li {
         margin:30px;
     }
 
-
+    .left {
+        border: none;
+    }
 
     body{
         background-color:lightskyblue;
@@ -234,7 +237,7 @@ footer .contact-info ul li {
 
     .blurb p{
         font-weight:bold;
-        font-size:40px;
+        font-size:32px;
     }
 
     h2 {

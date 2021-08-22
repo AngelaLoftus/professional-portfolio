@@ -36,7 +36,7 @@
 <!--hero section with striped image-->
 <section class=hero>
     <div class=blurb>
-        Cool Subtitle here !
+       <p> Cool Subtitle here ! </p>
     </div>
 </section>
 
@@ -44,7 +44,11 @@
 
 <!--about section-->
     <section id="about" class="about">
+        
+        <div class = "left">
         <h2>About Me</h2>
+        </div>
+        
         <img class="profile-pic" src="./assets/Images/angela-loftus.jpg" alt="Angela Loftus"> 
         
         <p> <br> Text about angela loftus as a developer. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi amet fugiat consequatur quis totam a voluptatum rerum tempore deleniti, sequi, tempora pariatur, dolor maxime doloribus impedit repudiandae dolores suscipit? Incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatem incidunt perferendis esse neque autem corporis harum non, officiis similique nisi inventore rerum laborum quisquam nulla, deleniti amet qui fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, deleniti? Ad illo accusantium eligendi aliquid illum, est velit fuga labore iste, consectetur soluta! Fugit explicabo, veniam nemo aliquid odio aperiam! </br></br>
@@ -56,33 +60,49 @@
 
     <section id="work" class="work">
         <div class="flex-row"> 
-            <h2>Work</h2>
+            <div class = "left"><h2>Work</h2></div>
     
-            <div id= "firstitem" class="flex-child">
+            <div id= "firstitem">
                 <a href="https://angelaloftus.github.io/run-buddy/" target="_blank">
-                <h3> Run Buddy </h3>
-                <img id="runbuddy"  src="./assets/Images/run-buddy-screenshot.png" alt="screenshot of RunBuddy web app"
+                <div class="label">
+                    <h3> Run Buddy </h3>
+                </div>
+                <img id="runbuddy"  src="./assets/Images/hero-bg.jpg" alt="screenshot of RunBuddy web app"
                 >
                 
                 </a>
-            </div>
+            
+            <div class = "flex-parent">
+                <div class="flex-child">
+                    <a href="https://angelaloftus.github.io/challenge-1/" target="_blank">
+                    
+                        <div class = "label">
+                        <h3>Horiseon Refactor</h3> 
+                        </div>
+
+                        <img src="./assets/Images/Horiseon Screenshot.jpg" alt = "Horiseon screenshot">
+                    </a>
+                    </div> 
+                <div class="flex-child">
     
-            <div class="flex-child">
-                <a href="https://angelaloftus.github.io/challenge-1/" target="_blank">
-                <h3>Horiseon Refactor</h3> 
-                <img src="./assets/Images/Horiseon Screenshot.jpg">
-                </a>
-                </div> 
-    
-            <div class="flex-child">
-                <h3>Project Placeholder 2</h3>
-                <img src="./assets/Images/Placeholder img.jpg">
+                    <div class= "label">
+                    <h3>Project Placeholder 2</h3>
                 </div>
-            <div class="flex-child">
-                <h3>Project Placeholder 3</h3>
-                <img src="./assets/Images/Placeholder img.jpg">
-            </div>
-                
+                    <img src="./assets/Images/Placeholder img.jpg">
+                    </div>            
+                <div class="flex-child">
+                    <div class= "label">
+                    <h3>Project Placeholder 3</h3>
+                    </div>
+                    <img src="./assets/Images/Placeholder img.jpg">
+                </div>
+                <div class="flex-child">
+                    <div class= "label">
+                    <h3>Project Placeholder 4</h3>
+                    </div>
+                    <img src="./assets/Images/Placeholder img.jpg">
+                </div>
+            </div>       
         </div>
     </section>
 
@@ -91,13 +111,14 @@
 <!--footer/contact section-->
 <footer>
     <div id= "contact" class="flex-row">
-        <h2>Contact Me</h2>
+        <div class = "left"><h2>Contact Me</h2></div>
+
         <div class=contact-info>
         <ul>
-            <li><strong>Email:</strong> <a href="mailto:angelaloftus@yahoo.com">angelaloftus@yahoo.com</a></li>
-            <li><strong>Github:</strong> <a href="https://github.com/AngelaLoftus">AngelaLoftus</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angela-l-701856215/">Angela Loftus</a></li>
-            <li><strong>Phone number:</strong> 512-317-4554</li>
+            <li><strong>Email:</strong> <a href="mailto:angelaloftus@yahoo.com">angelaloftus@yahoo.com         </a></li>
+            <li><strong>Github:</strong> <a href="https://github.com/AngelaLoftus">AngelaLoftus         </a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angela-l-701856215/">Angela Loftus         </a></li>
+            <li><strong>Phone number:</strong> 512-317-4554          </li>
         </ul>
     </div>  
 </div>

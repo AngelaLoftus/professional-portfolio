@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angela Loftus Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
 <header>
@@ -26,6 +27,9 @@
             <li>
                 <a href="#contact">Contact Me</a>
             </li>
+            <li>
+                <a href = "">Resume</a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -35,8 +39,8 @@
 
 <!--hero section with striped image-->
 <section class=hero>
-    <div class=blurb>
-        <p> Cool Subtitle here ! </p>
+    <div class = "blurb">
+        <p>Work in Progress! </p>
     </div>
 </section>
 
@@ -46,13 +50,12 @@
     <section id="about" class="about">
         
         <div class = "left">
-        <h2>About Me</h2>
+            <h2>About Me</h2>
         </div>
         
         <img class="profile-pic" src="./assets/Images/angela-loftus.jpg" alt="Angela Loftus"> 
         
-        <p> <br> Text about angela loftus as a developer. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi amet fugiat consequatur quis totam a voluptatum rerum tempore deleniti, sequi, tempora pariatur, dolor maxime doloribus impedit repudiandae dolores suscipit? Incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatem incidunt perferendis esse neque autem corporis harum non, officiis similique nisi inventore rerum laborum quisquam nulla, deleniti amet qui fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, deleniti? Ad illo accusantium eligendi aliquid illum, est velit fuga labore iste, consectetur soluta! Fugit explicabo, veniam nemo aliquid odio aperiam! </br></br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa reprehenderit nostrum labore recusandae itaque magnam, repellat voluptate asperiores dicta ullam illo, tempore corrupti fugiat. Alias pariatur consequuntur saepe doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident asperiores placeat maiores corrupti officia, soluta, beatae doloribus, laudantium temporibus accusantium suscipit. Non accusamus numquam vel expedita earum dolorum inventore.</p>
+        <p class= "mt-4 p-3 text-center"><strong>Angela Loftus is a budding web developer residing in Austin, TX. As a boot camp student, this is Angela's first experience with coding. Past work experience includes education. Angela previously taught high school Algebra for three years at Stony Point High School. Before becoming a full time teacher, Angela was a substitute teacher for Austin Independent School District. In the past, Angela has been a high school speech coach, a paid choral singer, and a brief stint working in restaurants. She grew up with a love of computers and software engineering, passed on from her engineer father. Angela is passionate about learning to code and looks forward to tackling more advanced projects in the future.</strong> </p>
     </section>
 
 
@@ -62,7 +65,7 @@
         <div class="flex-row"> 
             <div class = "left"><h2>Work</h2></div>
     
-            <div id= "firstitem">
+            <div id= "firstitem" class = "col-12">
                 <a href="https://angelaloftus.github.io/run-buddy/" target="_blank">
                 <div class="label">
                     <h3> Run Buddy </h3>
@@ -73,30 +76,34 @@
                 </a>
             
             <div class = "flex-parent">
-                <div class="flex-child">
+                <div class="flex-child col-5">
                     <a href="https://angelaloftus.github.io/challenge-1/" target="_blank">
                     
                         <div class = "label">
-                        <h3>Horiseon Refactor</h3> 
+                            <h3>Horiseon Refactor</h3> 
                         </div>
 
-                        <img src="./assets/Images/Horiseon Screenshot.jpg" alt = "Horiseon screenshot">
+                        <img id = "horiseon-screenschot" src="./assets/Images/Horiseon Screenshot.jpg" alt = "Horiseon screenshot">
                     </a>
-                    </div> 
-                <div class="flex-child">
-    
+                    </div>
+                    
+                <div class="flex-child col-5">
+                    <a href = "https://nguyen-william93.github.io/Covid-Tourism-Information-Center/" target = "_blank">
                     <div class= "label">
-                    <h3>Project Placeholder 2</h3>
-                </div>
-                    <img src="./assets/Images/Placeholder img.jpg">
-                    </div>            
-                <div class="flex-child">
+                        <h3>Covid Tourism Information Center</h3>
+                    </div>
+                    <img id = "covid-screenshot" src="./assets/Images/Group-Project-1.jpg">
+                    </a>
+                </div>            
+
+                <div class="flex-child col-5">
                     <div class= "label">
-                    <h3>Project Placeholder 3</h3>
+                        <h3>Project Placeholder 3</h>
                     </div>
                     <img src="./assets/Images/Placeholder img.jpg">
                 </div>
-                <div class="flex-child">
+                
+                <div class="flex-child col-5">
                     <div class= "label">
                     <h3>Project Placeholder 4</h3>
                     </div>
@@ -113,12 +120,12 @@
     <div id= "contact" class="flex-row">
         <div class = "left"><h2>Contact Me</h2></div>
 
-        <div class=contact-info>
+        <div class= "contact-info">
         <ul>
-            <li><strong>Email:</strong> <a href="mailto:angelaloftus@yahoo.com">angelaloftus@yahoo.com         </a></li>
-            <li><strong>Github:</strong> <a href="https://github.com/AngelaLoftus">AngelaLoftus         </a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angela-l-701856215/">Angela Loftus         </a></li>
-            <li><strong>Phone number:</strong> 512-317-4554          </li>
+            <li class= "p-2 m-4"><strong>Email:</strong> <a href="mailto:angelaloftus@yahoo.com">angelaloftus@yahoo.com         </a></li>
+            <li class= "p-2 m-4"><strong>Github:</strong> <a href="https://github.com/AngelaLoftus">AngelaLoftus         </a></li>
+            <li class= "p-2 m-4"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angela-l-701856215/">Angela Loftus         </a></li>
+            <li class= "p-2 m-4"><strong>Phone number:</strong> 512-317-4554          </li>
         </ul>
     </div>  
 </div>

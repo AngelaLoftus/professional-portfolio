@@ -39,7 +39,7 @@ ul {
 
 h1 {
     background-color: rgb(11, 197, 197);
-    width: 400px;
+  
     padding: 10px 20px;
     margin: 0 auto;
 }
@@ -93,8 +93,8 @@ header nav ul li{
 }
 
 #covid-screenshot{
-    height: 300px;
-    width: 550px;
+    height: 200px;
+    width: 400px;
 }
 
 #horiseon-screenshot{
@@ -296,8 +296,9 @@ footer .contact-info ul li {
     }
 
     .covid-screenshot{
-        width: 300px;
-        height: 100px;
+        width: 600px;
+        height: 300px;
+
     }
 
     

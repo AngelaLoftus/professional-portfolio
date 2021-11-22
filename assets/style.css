@@ -38,7 +38,7 @@ ul {
 }
 
 h1 {
-    background-color: rgb(11, 197, 197);
+    background-color:rgb(134, 209, 209);
   
     padding: 10px 20px;
     margin: 0 auto;
@@ -50,6 +50,7 @@ nav ul li{
     color: #140d3f;
 
 }
+
 
 /*displays list as inline block (next to each other)*/
 
@@ -93,8 +94,8 @@ header nav ul li{
 }
 
 #covid-screenshot{
-    height: 200px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
 }
 
 #horiseon-screenshot{
@@ -136,7 +137,7 @@ h3{
 
 img {
     border-bottom:black;
-    width: 400px;
+    width: auto;
 }
 
 img:hover{
@@ -154,7 +155,7 @@ img:hover{
 
 .flex-child {
     font-weight:bold;
-    background-color:rgb(11, 197, 197);
+    background-color:rgb(122, 194, 194);
     padding: 10px;
     margin: 10px;
     width: 700px;
@@ -169,7 +170,8 @@ padding: 5px;
 }
 
 #runbuddy{
-    width: 70%;
+    width: 600px;
+    height: 250px;
     margin: 50px;
     align-self:auto;
     border: 5px black;
@@ -206,6 +208,10 @@ footer .contact-info ul li {
 .profile-pic {
     width: 100px;
     height: 100px;
+}
+#purple-minutes {
+    width: auto; 
+    height: auto;
 }
 
 }
@@ -293,12 +299,6 @@ footer .contact-info ul li {
     .contact-info{
         display:flex;
         flex-direction: column;
-    }
-
-    .covid-screenshot{
-        width: 600px;
-        height: 300px;
-
     }
 
     

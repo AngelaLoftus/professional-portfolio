@@ -93,7 +93,7 @@ header nav ul li{
     padding: 20px;
 }
 
-#covid-screenshot, #weather-dashboard{
+#covid-screenshot, #weather-dashboard, #tech-blog{
     height: 250px;
     width: 500px;
     margin: 20px;
@@ -141,7 +141,9 @@ h3{
 img {
     border-bottom:black;
     width: auto;
+    height: auto;
 }
+ 
 
 img:hover{
     opacity:75%;
